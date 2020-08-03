@@ -75,7 +75,7 @@ class Usuario {
 	}
 
 
-	public function carregaPeloId($id):bool {
+	public function carregaPeloId($id) : bool {
 
 		$comandoSQL = new SQL();
 

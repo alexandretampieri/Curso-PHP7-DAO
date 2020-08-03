@@ -1,7 +1,7 @@
 <form>
 
 <label>Identificador do usuário:</label>
-<input type="number" name="idUsuario" min="1" max="20" value="1">
+<input type="number" name="idUsuario" min="1" max="50" value="1">
 
 <br> <br>
 

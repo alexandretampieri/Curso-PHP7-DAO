@@ -15,6 +15,7 @@ class SQL extends PDO {
 		foreach($parametros as $chave => $valor) {
 
 			$this->setParametro($comando, $chave, $valor);
+
 		}
 
 	}
@@ -37,7 +38,7 @@ class SQL extends PDO {
 
 	}
 
-	public function select($comandoSQL, $parametros = array()):array {
+	public function select($comandoSQL, $parametros = array()) : array {
 
 		$comando = $this->query($comandoSQL, $parametros);
 
