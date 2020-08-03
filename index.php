@@ -26,6 +26,7 @@ echo json_encode($usuarios);
 
 */
 
+
 //Carrega um usuário pelo idusuario
 
 if (isset($_GET) && count($_GET) > 0) {

@@ -205,7 +205,7 @@ class Usuario {
 		$comandoSQL = new SQL();
 
 		return $comandoSQL->select("SELECT * FROM tb_usuarios WHERE deslogin LIKE :ARG ORDER BY deslogin;", array(
-			":ARG"=>"%".$chave."%"
+			":ARG"=>"%" . $chave . "%"
 		));
 
     }
@@ -230,7 +230,6 @@ class Usuario {
 		return $json;
 
 	}
-
 
 }
 
