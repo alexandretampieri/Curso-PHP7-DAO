@@ -150,6 +150,7 @@ class Usuario {
     	if (count($resultado) > 0) {
 
     		$this->setDadosUsuario($resultado[0]);
+
     	}
 
     }
