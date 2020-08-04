@@ -10,6 +10,7 @@ class Usuario {
 
 	private $dtcadastro;
 
+
 	public function __construct($login = "", $senha = "") {
 
 		$this->setDesLogin($login);
@@ -221,9 +222,7 @@ class Usuario {
 
 			"Senha"=>$this->getDesSenha(),
 
-			"DataCadastro"=>$this->getDtCadastro()->format("d/m/Y, H:i:s"),
-
-			JSON_UNESCAPED_UNICODE
+			"DataCadastro"=>$this->getDtCadastro()->format("d/m/Y, H:i:s")
 
 		));
 
